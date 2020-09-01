@@ -13,10 +13,10 @@
   transform: translateY(-0.1rem);
   transition: transform 150ms;
 }
-
+/* #33a358; */
 .choice-prefix {
   padding: 1.5rem 2.5rem;
-  background-color: #56a5eb;
+  background-color: #0088b6;
   color: white;
 }
 
@@ -52,13 +52,13 @@
 #progressBar {
   width: 20rem;
   height: 4rem;
-  border: 0.3rem solid #56a5eb;
+  border: 0.3rem solid #333;
   margin-top: 1.5rem;
 }
 
 #progressBarFull {
   height: 3.4rem;
-  background-color: #56a5eb;
+  background-color: #00b52d;
   width: 0%;
 }
 
