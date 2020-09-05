@@ -101,9 +101,13 @@ choices.forEach((choice) => {
     }
 
     selectedChoice.parentElement.classList.add(classToApply);
+    choices[currentQuestion.answer - 1].parentElement.classList.add("correct");
 
     setTimeout(() => {
       selectedChoice.parentElement.classList.remove(classToApply);
+      choices[currentQuestion.answer - 1].parentElement.classList.remove(
+        "correct"
+      );
       getNewQuestion();
     }, 1000);
   });
