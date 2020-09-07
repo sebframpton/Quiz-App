@@ -109,7 +109,7 @@ choices.forEach((choice) => {
         "correct"
       );
       getNewQuestion();
-    }, 1000);
+    }, 10000);
   });
 });
 
