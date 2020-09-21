@@ -7,6 +7,16 @@
 .high-score {
   font-size: 2.8rem;
   margin-bottom: 0.5rem;
+  text-decoration: none;
+  font-size: 1.8rem;
+  padding: 1rem 0;
+  width: 20rem;
+  text-align: center;
+  border: 0.1rem solid #3ab7a9;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  color: #fff;
+  background-color: darkcyan;
 }
 
 .high-score:hover {
