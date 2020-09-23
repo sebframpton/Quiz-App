@@ -78,33 +78,6 @@ h3 {
   display: none;
 }
 
-/* BUTTONS */
-/* 
-.btn {
-  font-size: 1.8rem;
-  padding: 1rem 0;
-  width: 20rem;
-  text-align: center;
-  border: 0.1rem solid #3ab7a9;
-  margin-bottom: 1rem;
-  text-decoration: none;
-  color: #fff;
-  background-color: darkcyan;
-}
-
-.btn:hover {
-  cursor: pointer;
-  box-shadow: 0 0.4rem 1.4rem 0 rgba(38, 69, 85, 0.5);
-  transform: translateY(-0.1rem);
-  transition: transform 150ms;
-}
-
-.btn[disabled]:hover {
-  cursor: not-allowed;
-  box-shadow: none;
-  transform: none;
-} */
-
 .btn {
   text-decoration: none;
   font-size: 1.8rem;
